@@ -11,9 +11,9 @@
             "loggingOptions": "",
             "registryCredentials": {
               "acr": {
-                "username": "myContainerRegistryTutorialCS",
-                "password": "VfCG779aZvKhudeYApkXupotkeMgCa4tvEj5jvHEum+ACRCDwQL8",
-                "address": "mycontainerregistrytutorialcs.azurecr.io"
+                "username": "${ACR_USER}",
+                "password": "${ACR_PASSWORD}",
+                "address": "${ACR_ADDRESS}"
               }
             }
           }
